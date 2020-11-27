@@ -28,7 +28,7 @@ def iterate_year_files(year_filepath_list, year_dow30):
 def iterate_all_files(): 
     #get all file paths
     filepath_list = []
-    for filepath in glob.iglob('../data/Output-Stat/*.csv'): 
+    for filepath in glob.iglob('../Data/Output-Stat_h/*.csv'): 
         # print(filepath)
         filepath_list.append(filepath)
     filepath_list.sort()
@@ -93,7 +93,7 @@ def find_return(df_list):
             df_temp = df_temp.append(row)
           
         df_list_new.append(df_temp)
-        df_temp.to_excel('../Data/stock_and_index/'+str(year)+'_dow30_excess_return.xlsx')  
+        df_temp.to_excel('../Data/stock_and_index_h/'+str(year)+'_dow30_excess_return.xlsx')  
         year = year + 1
     return df_list_new
 
@@ -102,8 +102,9 @@ if __name__ == '__main__':
     print("find_Dow30.py")
     pd.set_option("display.max_columns", None)
     df_list = iterate_all_files() #dow30 stocks info without return
+    print(len(df_list))
     df_list_all = find_return(df_list) #dow30 stocks info with return
-    print(df_list_all[0].head())
+    # print(df_list_all[0].head())
     # test_str = "G:/NLP-P1-Textdata/2017/QTR4/20171030_10-Q_edgar_data_37634_0000037634-17-000002_1.txt"
     #
     # start = re.search("data_", test_str).span()
