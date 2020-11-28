@@ -1,0 +1,2 @@
+file name,file size,company name,conformed period of report,filed as of date,date as of change,number of words,% positive,% negative,% uncertainty,% litigious,% modal-weak,% modal moderate,% modal strong,% constraining,# of alphabetic,# of digits,# of numbers,avg # of syllables per word,average word length,vocabulary
+../Data/filtered_textdata/2013/QTR4/20131122_10-K_edgar_data_1403161_0001403161-13-000011_1.txt,381843,VISA INC.,20130930,20131122,20131121,24377,5.148295524469787,2.412109775608155,0.0,0.0,0.0,0.0,0.0,0.0,295776,6256,2204,0,4.8083029084793045,995

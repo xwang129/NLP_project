@@ -1,0 +1,2 @@
+file name,file size,company name,conformed period of report,filed as of date,date as of change,number of words,% positive,% negative,% uncertainty,% litigious,% modal-weak,% modal moderate,% modal strong,% constraining,# of alphabetic,# of digits,# of numbers,avg # of syllables per word,average word length,vocabulary
+../Data/filtered_textdata/2015/QTR2/20150401_10-K_edgar_data_104169_0000104169-15-000011_1.txt,392454,WAL MART STORES INC,20150131,20150401,20150401,24795,4.2629562411776565,1.8713450292397662,0.0,0.0,0.0,0.0,0.0,0.0,295796,7356,2642,0,4.575438596491228,1088

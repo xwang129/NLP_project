@@ -1,0 +1,2 @@
+file name,file size,company name,conformed period of report,filed as of date,date as of change,number of words,% positive,% negative,% uncertainty,% litigious,% modal-weak,% modal moderate,% modal strong,% constraining,# of alphabetic,# of digits,# of numbers,avg # of syllables per word,average word length,vocabulary
+../Data/filtered_textdata/2011/QTR4/20111214_10-K_edgar_data_47217_0001047469-11-010094_1.txt,523595,HEWLETT PACKARD CO,20111031,20111214,20111214,31867,4.948693005303292,2.224872124768569,0.0,0.0,0.0,0.0,0.0,0.0,403461,8831,3042,0,4.872783757492076,1217

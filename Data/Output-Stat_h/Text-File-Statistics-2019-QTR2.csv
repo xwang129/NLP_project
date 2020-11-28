@@ -1,0 +1,2 @@
+file name,file size,company name,conformed period of report,filed as of date,date as of change,number of words,% positive,% negative,% uncertainty,% litigious,% modal-weak,% modal moderate,% modal strong,% constraining,# of alphabetic,# of digits,# of numbers,avg # of syllables per word,average word length,vocabulary
+../Data/filtered_textdata/2019/QTR2/20190405_10-K-A_edgar_data_101829_0000101829-19-000009_1.txt,87313,UNITED TECHNOLOGIES CORP /DE/,20181231,0,20190405,3776,10.222457627118645,2.4364406779661016,0.0,0.0,0.0,0.0,0.0,0.0,60459,4704,686,0,5.605137711864407,152
